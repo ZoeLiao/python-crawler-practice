@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export PYTHONPATH=${PWD}
+
+if [[ "$VIRTUAL_ENV" == "" ]];then
+    virtualenv venv --python=python3 
+    . venv/bin/activate
+    pip3 install -r requirements.txt
+fi
