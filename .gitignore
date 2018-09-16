@@ -1,0 +1,9 @@
+# python
+__pycache__/
+.pyc
+
+# scrapy
+scrapy.cfg
+
+# virtualenv 
+venv*
