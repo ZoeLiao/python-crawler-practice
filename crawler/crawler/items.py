@@ -8,7 +8,7 @@
 import scrapy
 
 
-class CrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class PttItem(scrapy.Item):
+    board = scrapy.Field()
+    board_url = scrapy.Field()
+    board_articles = scrapy.Field()
